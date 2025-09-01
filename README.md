@@ -24,7 +24,7 @@ source venv/bin/activate
 ```
 
 pip install -r requirements.txt
-
+```
 app/
 ├─ main.py           # Entry point
 ├─ routers/
@@ -40,6 +40,7 @@ app/
 └─ core/
    ├─ config.py
    └─ security.py
+```
 
 uvicorn app.main:app --reload
 
